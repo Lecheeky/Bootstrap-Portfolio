@@ -258,4 +258,166 @@ color: lightgray !important;
     width: 160px;
 }
 
+@media only screen and (max-width: 1370px)  {
+    .hero{
+        margin-left: 60px;
+        margin-top: 140px;
+    }
+    .profile-text-container{
+        padding: 70px;
+        margin-top: 80px;
+        white-space: nowrap;
+    }
+    .about-me{
+
+    }
+    .aboutme-text-container{
+        text-align: center;
+        padding-left: 100px;
+        margin-top: 170px;
+    }
+    .about-me-picture{
+        width: 400px;
+        height: 600px;
+        object-fit: cover;
+    }
+    .about-me-title{
+        font-size: 48px;
+        font-weight: 700;
+        padding-bottom: 30px;
+    }
+    .about-me-text{
+        font-size: 18px;
+        width: 500px;
+    }
+
+}
+
+@media only screen and (max-width: 1270px) {
+    .navbar-brand{
+        margin-left: -90px;
+    }
+    .hero{
+        margin-left: 70px;
+        margin-top: 90px;
+    }
+    .profile-picture{
+        width: 400px;
+        height: 400px;
+        object-fit: cover;
+        border-radius: 100%;
+    }
+    .profile-text-container{
+        margin-top: 350px;
+        white-space: nowrap;
+        margin-left: -450px;
+        text-align: center;
+    }
+    .display-4{
+        font-size: 20px !important;
+        padding-bottom: 10px;
+    }
+    .lead{
+        font-size: 33px !important;
+    }
+    .about-me{
+        padding-top: 300px;
+    }
+    .aboutme-text-container{
+        text-align: center;
+        padding-left: 0px;
+        margin-top: -10px;
+    }
+    .about-me-picture{
+        width: 400px;
+        height: 500px;
+        object-fit: cover;
+        margin-left: 130px;
+        padding-left: 30px;
+        padding-right: 40px;
+        margin-top: -200px;
+    }
+    .about-me-title{
+        font-size: 48px;
+        font-weight: 700;
+        padding-bottom: 0px;
+        margin-top: -270px;
+        margin-left: -420px;
+
+    }
+    .about-me-text{
+        font-size: 18px;
+        width: 450px;
+        margin-top: 550px;
+        margin-left: -430px;
+    }
+}
+
+
+@media only screen and (max-width: 900px){
+    .jumbotron{
+        display: flex !important;
+        flex-direction: row !important;
+    }
+    .form-container{
+        margin-left: 55px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .hero{
+        margin-left: 40px;
+        margin-top: 70px;
+        padding-bottom: 220px;
+    }
+    .profile-picture{
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 100%;
+    }
+    .profile-text-container{
+        margin-top: 260px;
+        white-space: nowrap;
+        margin-left: -335px;
+        text-align: center;
+    }
+    .display-4{
+        font-size: 15px !important;
+        padding-bottom: 10px;
+    }
+    .lead{
+        font-size:22px !important;
+    }
+    .about-me{
+        margin-left: -120px;
+        margin-top: -0px;
+    }
+    .about-me-text{
+        font-size: 13px;
+        width: 300px;
+        margin-top: 370px;
+        margin-left: -285px;
+    }
+    .about-me-picture{
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        margin-left: 100px;
+        padding-left: 30px;
+        padding-right: 0px;
+    }
+    .about-me-title{
+        font-size: 48px;
+        font-weight: 700;
+        padding-bottom: 0px;
+        margin-top: -260px;
+        margin-left: -285px;
+    }
+    .cardContainer{
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+}
+
 /*End of 'forms' code using bootstrap*/
