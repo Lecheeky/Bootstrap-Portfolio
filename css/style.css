@@ -49,3 +49,36 @@ body{
 }
 
 /*End of navbar code using bootstrap*/
+
+/*Start of 'home' code using bootstrap*/
+
+.hero{
+    display: flex;
+    justify-content: center;
+    margin-left: -100px;
+    margin-top: 100px;
+}
+
+.profile-picture{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.profile-text-container{
+    text-align: start;
+    margin-top: 150px;
+    padding-left: 200px;
+}
+
+.display-4{
+    font-size: 30px !important;
+    padding-bottom: 30px;
+}
+
+.lead{
+    font-size: 43px !important;
+}
+
+/*End of 'home' code using bootstrap*/
