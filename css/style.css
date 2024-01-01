@@ -82,3 +82,87 @@ body{
 }
 
 /*End of 'home' code using bootstrap*/
+
+/*Start of 'about' code using bootstrap*/
+
+.about-me{
+    display: flex;
+    justify-content: center;
+    margin-left: -100px;
+    margin-top: 300px;
+    padding-top: 100px;
+}
+
+.aboutme-text-container{
+    text-align: center;
+    padding-left: 100px;
+    margin-top: 170px;
+}
+
+.about-me-picture{
+    width: 500px;
+    height: 700px;
+    object-fit: cover;
+}
+
+.about-me-title{
+    font-size: 68px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.about-me-text{
+    font-size: 23px;
+    width: 600px;
+}
+
+/*End of 'about' code using bootstrap*/
+
+/*Start of 'projects' code using bootstrap*/
+
+.my-work{
+    margin-top: 200px;
+    padding-top: 50px;
+    background-color: transparent !important;
+}
+
+.projects-title{
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 50px;
+    font-weight: 700;
+}
+
+.cardContainer{
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+}
+
+.row{
+    --bs-gutter-x: 0rem !important; 
+}
+
+.card{
+    background-color: transparent !important;
+    border-radius: 6px !important;
+    border-color: transparent !important;
+}
+
+.card-body{
+    text-align: center;
+    background-color: transparent !important;
+
+    border-radius: 0px !important;
+}
+
+.card-title, .card-text{
+    color: white !important;
+}
+
+.btn-primary{
+    background-color: rgb(76, 101, 76) !important;
+    border-color: rgb(62, 105, 62) !important;
+    color: white !important;
+}
+
+/*End of 'projects' code using bootstrap*/
